@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".elect"
+    android:background="@drawable/evoting"
+    >
+
+    <EditText
+        android:id="@+id/editcoupon"
+        android:layout_width="248dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="83dp"
+        android:ems="10"
+        android:hint="Coupon Number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/gobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="143dp"
+        android:onClick="go"
+        android:text="Go" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="92dp"
+        android:layout_height="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="13dp"
+        android:text="Sign In"
+        android:textColor="#000CFC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:onClick="signin"/>
+</RelativeLayout>

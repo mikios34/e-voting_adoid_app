@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1006210995188",
+    "firebase_url": "https://e-voting-14249.firebaseio.com",
+    "project_id": "e-voting-14249",
+    "storage_bucket": "e-voting-14249.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006210995188:android:dbe1a08a8527016f",
+        "android_client_info": {
+          "package_name": "com.example.electronic_voting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006210995188-4mil7dih0i01g8apsvvvthje9ipuuhhj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.electronic_voting",
+            "certificate_hash": "68561f2616f0a5aad489b25ec12b153b6144c22f"
+          }
+        },
+        {
+          "client_id": "1006210995188-pd9gfmgfbma99n609n4tbv93a3sir5fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJiqtkdMv_IygaoW77-g5WQj86nzILb1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006210995188-pd9gfmgfbma99n609n4tbv93a3sir5fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
